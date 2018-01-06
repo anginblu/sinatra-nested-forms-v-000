@@ -14,7 +14,7 @@ class Ship
     PIRATES
   end
 
-    def self.all
-      PIRATES
-    end
+  def self.clear
+    PIRATES
+  end
 end
