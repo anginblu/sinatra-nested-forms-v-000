@@ -1,5 +1,5 @@
 class Ship
-  attr_reader :name, :type, :height
+  attr_reader :name, :type, :booty
 
  PIRATES = []
 
@@ -14,4 +14,7 @@ class Ship
     PIRATES
   end
 
+    def self.all
+      PIRATES
+    end
 end
