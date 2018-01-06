@@ -6,6 +6,7 @@ class Pirate
   def initialize(params)
     @name = params[:name]
     @grade = params[:grade]
+    @grade = params[:grade]
     STUDENTS << self
   end
 
