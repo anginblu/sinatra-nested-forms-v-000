@@ -5,13 +5,13 @@ class Pirate
 
   def initialize(params)
     @name = params[:name]
-    @grade = params[:grade]
-    @grade = params[:grade]
-    STUDENTS << self
+    @weight = params[:weight]
+    @height = params[:height]
+    PIRATES << self
   end
 
   def self.all
-    STUDENTS
+    PIRATES
   end
 
 end
