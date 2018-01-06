@@ -1,4 +1,4 @@
-class SHIP
+class Ship
   attr_reader :name, :weight, :height
 
  PIRATES = []
